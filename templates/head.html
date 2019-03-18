@@ -1,3 +1,4 @@
+{% load static %}
 <head>
 	<title>TITLE</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,10 @@
 
 	<!-- Stylesheets -->
 
-	<link href="common-css/bootstrap.css" rel="stylesheet">
 
-	<link href="common-css/ionicons.css" rel="stylesheet">
+	<link href="{% static 'common-css/ionicons.css' %}" rel="stylesheet">
+	<link href="{% static 'common-css/bootstrap.css' %}" rel="stylesheet">
+
+
+
+
