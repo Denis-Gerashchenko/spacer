@@ -1,9 +1,9 @@
-from django.views import View
-from django.shortcuts import render
+from django.views.generic import View, DetailView
+from django.shortcuts import render, get_object_or_404
 from .models import Space
 
 # Create your views here.
-class Index_view(View):
+class IndexView(View):
     template_name = 'index.html'
 
     def get(self, request, *args, **kwargs):
@@ -13,6 +13,13 @@ class Index_view(View):
         }
         return render(request, self.template_name, context)
 
-def space_view(request):
-    return render(request, 'single-post-1.html', {})
+class SpaceDetailView(DetailView):
+    model = Space
+    template_name = 'single-post-1.html'
+    context_object_name = 'space'
+
+    def get_object(self):
+        obj = super().get_object()
+        return obj
+
 

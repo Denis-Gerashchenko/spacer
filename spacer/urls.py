@@ -3,12 +3,12 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 
-from spaces.views import Index_view, space_view
+from spaces.views import IndexView, SpaceDetailView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Index_view.as_view(), name='index'),
-    path('space', space_view)
+    path('', IndexView.as_view(), name='index'),
+    path('space/<pk>', SpaceDetailView.as_view(), name='space-detail'),
 ]
 
 if settings.DEBUG:
