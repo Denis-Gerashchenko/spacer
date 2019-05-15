@@ -121,6 +121,33 @@ https://colorlib.com/demo?theme=bona
 ну и стоит повторить, 4то это всё после того, как я выжму максимум из того что есть.
 Т.е. как минимум после появления рабочих комментов, и чтобы посты линковались с главной страницы.
 
+--------
+
+Вырезанные иконочки. Кажись еще пригодятся
+
+						<div class="post-icons-area">
+							<ul class="post-icons">
+								<li><a href="#"><i class="ion-heart"></i>57</a></li>
+								<li><a href="#"><i class="ion-chatbubble"></i>6</a></li>
+								<li><a href="#"><i class="ion-eye"></i>138</a></li>
+							</ul>
+
+							<ul class="icons">
+								<li>SHARE : </li>
+								<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+								<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+								<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
+							</ul>
+						</div>
+
+Думаю, сегодня будет тема за комментарии.
+Хо4у чтобы как в вк:
+Но, еще не сделан переход и доступ к каждому посту отдельно. Кажись у jd  это было где-то в начале.
+
+Ну, это было просто.
+
+
+
 
 
 
